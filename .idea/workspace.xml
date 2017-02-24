@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmailMain.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmailMain.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/emails/EmailMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="371">
+              <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
               <folding>
                 <element signature="e#28#66#0" expanded="true" />
               </folding>
@@ -47,14 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServicioPostal.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServicioPostal.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/emails/actors/ServicioPostal.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="342">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#35#77#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorSelection.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.11-sources.jar!/akka/actor/ActorSelection.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/example/pingpong/PongActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/emails/dominio/Dominio.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/emails/actors/Usuario.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/example/emails/EmailMain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/emails/actors/ServicioPostal.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/emails/EmailMain.scala" />
       </list>
     </option>
   </component>
@@ -738,12 +748,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/emails/EmailMain.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.11-sources.jar!/akka/actor/ActorSelection.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/emails/actors/ServicioPostal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
-            <element signature="e#28#66#0" expanded="true" />
+            <element signature="e#35#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,12 +776,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/emails/actors/ServicioPostal.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/emails/EmailMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="371">
+          <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
           <folding>
-            <element signature="e#35#77#0" expanded="true" />
+            <element signature="e#28#66#0" expanded="true" />
           </folding>
         </state>
       </provider>

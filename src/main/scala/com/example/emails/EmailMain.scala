@@ -28,9 +28,13 @@ object EmailMain extends App{
   gmail ! EnviarEmail(correo)
   gmail ! EnviarEmail(correo2)
 
-  val juanito = sistema.actorSelection("user/gmail/juan")
+  val dominio = (mauricio.direccion.split("@").tail.head).split(".").head
+  println(dominio)
+
+
+  /*val juanito = sistema.actorSelection("user/gmail/juan")
   val mensajes = (juanito ? "consultarMensajes")(1.second)
   for {
     a <- mensajes
-  }yield println(a)
+  }yield println(a)*/
 }
